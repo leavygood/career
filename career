@@ -13,5 +13,9 @@ Linux：
 mmp
 
 
+开发流程规范：
+git分支
+
+
 server expert:
 分布式锁：Redis，zookeeper，数据库
