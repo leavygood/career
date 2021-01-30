@@ -1,0 +1,11 @@
+
+
+
+git config credential.helper manager
+首先简单介绍一下credential.helper这个配置项的含义：这个配置项允许用户自行指定git所使用的凭据管理工具。
+简单粗暴的办法就是直接配置credential.helper的值为manager（注意：当你需要在同一台机器上使用多个git账号这么搞就不行了，因为2个账号必定使用的不同的凭据
+整个过程可以这样描述：当配置credential.helper后，git在需要用户名密码时会首先向指定的凭据管理器查找凭据，如果凭据不存在（对应第一次pull），则弹窗提示用户输入用户名密码，然后凭据管理器会记录这个凭据；如果凭据存在（对应第二次pull），则直接使用该凭据进行对应的git动作。
+
+
+git config --list
+git config --global
