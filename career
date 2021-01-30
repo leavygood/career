@@ -11,3 +11,7 @@ https
 
 Linux：
 mmp
+
+
+server expert:
+分布式锁：Redis，zookeeper，数据库
