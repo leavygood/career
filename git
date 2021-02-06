@@ -1,6 +1,10 @@
 https://www.runoob.com/w3cnote/git-guide.html
 
 
+
+git remote add origin git@github.com:yourName/yourRepo.git
+
+
 git config credential.helper manager
 首先简单介绍一下credential.helper这个配置项的含义：这个配置项允许用户自行指定git所使用的凭据管理工具。
 简单粗暴的办法就是直接配置credential.helper的值为manager（注意：当你需要在同一台机器上使用多个git账号这么搞就不行了，因为2个账号必定使用的不同的凭据
