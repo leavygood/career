@@ -6,8 +6,6 @@ https
 编解码
 
 
-日志框架
-
 
 Linux：
 mmp
@@ -17,5 +15,10 @@ mmp
 git分支
 
 
-server expert:
+server:
 分布式锁：Redis，zookeeper，数据库
+
+sso
+
+日志框架
+
