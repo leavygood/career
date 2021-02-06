@@ -19,6 +19,8 @@ server:
 分布式锁：Redis，zookeeper，数据库
 
 sso
+oauth2
+jwt
 
 日志框架
 
