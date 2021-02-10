@@ -1,0 +1,4 @@
+
+
+rename [OPTIONS] EXPRESSION REPLACEMENT FILE... 
+mv 不能批量处理，而 rename 可以。
