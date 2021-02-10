@@ -2,6 +2,7 @@
 
 
 mysql
+事务
 redis
 go java
 message queue
@@ -20,6 +21,8 @@ mmp
 
 
 开发流程规范
+
+
 
 
 
