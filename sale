@@ -63,3 +63,25 @@ redis：
 S3:
 失败率
 
+
+Nginx:
+qps
+5xx错误
+4xx错误
+
+
+ElasticSearch：
+硬盘使用率
+错误率
+
+
+Celery Service：
+Task平均执行时间
+Task等待时间
+task失败率
+
+
+3pl：
+接口错误率
+网络
+
